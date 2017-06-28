@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WebTestDemo</string>
+
+    <string name="yzt_home_tip_text1">政务</string>
+    <string name="yzt_home_tip_text2">便民</string>
+    <string name="yzt_home_tip_text3">特色</string>
+    <string name="yzt_home_tip_text4">今日禹州</string>
+</resources>
