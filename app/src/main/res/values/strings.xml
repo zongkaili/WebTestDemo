@@ -5,4 +5,20 @@
     <string name="yzt_home_tip_text2">便民</string>
     <string name="yzt_home_tip_text3">特色</string>
     <string name="yzt_home_tip_text4">今日禹州</string>
+
+    <string name="actionbar_webview_refresh">刷新</string>
+    <string name="actionbar_webview_open">打开链接</string>
+
+    <string-array name="government_affairs">
+        <item>1--A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</item>
+        <item>2--A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</item>
+        <item>3--A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</item>
+        <item>4--A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</item>
+        <item>5--A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</item>
+        <item>6--A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</item>
+        <item>7--A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</item>
+        <item>8--A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</item>
+        <item>9--A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</item>
+        <item>10--A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.</item>
+    </string-array>
 </resources>

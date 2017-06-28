@@ -2,6 +2,7 @@ package com.kelly.web;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
@@ -37,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void bindData(){
-
+        String[] contents = getResources().getStringArray(R.array.government_affairs);
+        mAdapter = new RecyclerAdapter(this,contents);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        mRecyclerView.setAdapter(mAdapter);
+        mAdapter.notifyDataSetChanged();
     }
 }
