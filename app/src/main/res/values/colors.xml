@@ -6,7 +6,7 @@
 
     <!--页面背景的颜色-->
     <color name="colorPageBg">#f2f4f5</color>
-
+    <color name="bg">#50a0a0a0</color>
     <color name="colorWhite">#ffffffff</color>
 
     <!--水波纹或5.0以下选择器颜色-->

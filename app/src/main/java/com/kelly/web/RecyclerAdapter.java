@@ -1,12 +1,14 @@
 package com.kelly.web;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.kelly.web.webview.WebActivity;
 import com.kelly.web.webview.WebViewActivity;
 
 /**
@@ -34,7 +36,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter {
         viewHolder.mTxtContent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                WebViewActivity.loadUrl(v.getContext(), "https://github.com/zongkaili?tab=stars", "加载中...");
+//                WebViewActivity.loadUrl(v.getContext(), "https://github.com/zongkaili?tab=stars", "加载中...");
+                mContext.startActivity(new Intent(mContext, WebActivity.class));
             }
         });
     }
